@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG Typing Animation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <svg viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+    <text x="10" y="40" font-family="monospace" font-size="24">
+      <tspan id="text"></tspan>
+      <tspan id="cursor" fill="black">|</tspan>
+    </text>
+  </svg>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
